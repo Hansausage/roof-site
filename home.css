@@ -1,0 +1,47 @@
+.content1 {
+    display: flex;
+    justify-content: center;
+    margin: 3vw 3vh;
+    align-items: center;
+}
+
+.content1 img {
+    max-height: 800px;
+    max-width: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content1 {
+        display: block;
+        text-align: center;
+    }
+    .content1 img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+}
+
+.call {
+    display: inline-block;
+    background-color: #829BA6;
+    border-radius: 6px;
+}
+
+.call p {
+    padding: 0vh 1vw;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer a {
+    color: #829BA6;
+}

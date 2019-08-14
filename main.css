@@ -1,0 +1,58 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 76px;
+    max-height: 128px;
+    margin-top: 3vh;
+}
+
+.nav-container li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 3vw;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #829BA6;
+    text-shadow: 1px 1px 3px #E3E3E3;
+}
+
+.nav-container .logo img {
+    width: 60px;
+    height: 42px;
+    max-width: 128px;
+    max-height: 64px;
+}
+
+.footer {
+    display: inline;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+.footer li {
+    color: #999894;
+}
+
+.footer a {
+    color: #829BA6;
+}
