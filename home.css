@@ -29,10 +29,7 @@
         display: block;
         text-align: center;
     }
-    .call {
-        text-align: center;
-        justify-content: center;
-    }
+    .call {}
     .content1 img {
         max-height: 300px;
         max-width: 300px;
