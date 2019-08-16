@@ -1,13 +1,17 @@
 .content1 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin: 3vw 3vh;
     align-items: center;
+    border-radius: 8px;
+    z-index: 1;
+    background-image: url("media/bg.jpg");
 }
 
 .content1 img {
-    max-height: 800px;
-    max-width: 800px;
+    max-height: 700px;
+    max-width: 700px;
+    margin: 4vh;
 }
 
 .call {
@@ -16,12 +20,14 @@
     background-color: #829BA6;
     border-radius: 6px;
     float: left;
+    box-shadow: 2px 2px 16px black;
 }
 
 .call p {
     padding: 0 1vw;
     text-align: center;
     color: white;
+    text-shadow: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -34,4 +40,19 @@
         max-height: 300px;
         max-width: 300px;
     }
+}
+
+.content1 h1 {
+    color: white;
+    text-shadow: 2px 2px 16px black;
+}
+
+.content1 p {
+    color: white;
+    text-shadow: 2px 2px 12px black;
+}
+
+.text-content {
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
