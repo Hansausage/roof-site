@@ -10,8 +10,13 @@ h1 {
     font-weight: 300;
 }
 
+nav {
+    display: flex;
+}
+
 .nav-container {
     display: flex;
+    flex-grow: 1;
     justify-content: left;
     align-items: center;
     height: 76px;
@@ -40,8 +45,15 @@ h1 {
 }
 
 .footer {
-    display: inline;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .social img {
+    max-width: 25px;
+    max-height: 25px;
 }
 
 .footer ul {
@@ -51,6 +63,8 @@ h1 {
 
 .footer li {
     color: #999894;
+    display: inline;
+    padding: 1vw;
 }
 
 .footer a {

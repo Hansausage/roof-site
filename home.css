@@ -10,38 +10,31 @@
     max-width: 800px;
 }
 
+.call {
+    display: block;
+    margin: 0;
+    background-color: #829BA6;
+    border-radius: 6px;
+    float: left;
+}
+
+.call p {
+    padding: 0 1vw;
+    text-align: center;
+    color: white;
+}
+
 @media only screen and (max-width: 600px) {
     .content1 {
         display: block;
         text-align: center;
     }
+    .call {
+        text-align: center;
+        justify-content: center;
+    }
     .content1 img {
         max-height: 300px;
         max-width: 300px;
     }
-}
-
-.call {
-    display: inline-block;
-    background-color: #829BA6;
-    border-radius: 6px;
-}
-
-.call p {
-    padding: 0vh 1vw;
-    color: white;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    margin-top: 15vh;
-}
-
-.footer ul {
-    list-style: none;
-}
-
-.footer a {
-    color: #829BA6;
 }
