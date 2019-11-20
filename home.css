@@ -11,40 +11,63 @@
 }
 
 .content1 img {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 500px;
+    max-width: 500px;
     margin: 4vh;
 }
 
 .call {
-    display: block;
-    margin: 0;
-    background-color: #829BA6;
-    border-radius: 6px;
-    float: left;
     box-shadow: 2px 2px 16px black;
+    background-color: white;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    height: 64px;
+    width: 170px;
+    margin-bottom: 3vh;
 }
 
-.call a {
-	text-decoration: none;
+.content1 .text-content .call img {
+    margin: 0.5vw;
+    max-height: 30px;
+    max-width: 30px;
 }
 
-.call p {
-    padding: 0 1vw;
-    text-align: center;
-    color: white;
+.content1 .text-content .call p {
+    margin-left: 0.5vw;
     text-shadow: none;
+    color: #829BA6;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 830px) {
     .content1 {
         display: block;
-        text-align: center;
+        background-color: white;
+        background-image: none;
+        margin: 1vh;
+        text-align: left;
+        color: black;
+        padding: 3vh 1vw;
     }
-    .call {}
-    .content1 img {
-        max-height: 300px;
-        max-width: 300px;
+
+    .content1 .text-content .call img {
+        margin-left: 1vw;
+    }
+
+    .content1 .text-content h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    .content1 .text-content p {
+        color: black;
+        text-shadow: none;
+    }
+
+    .content1 .logo {
+        display: none;
     }
 }
 

@@ -46,14 +46,14 @@ nav {
 
 .footer {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     flex-direction: column;
 }
 
 .footer .social img {
-    max-width: 25px;
-    max-height: 25px;
+    height: 25px;
+    width: 25px;
 }
 
 .footer ul {
@@ -64,7 +64,7 @@ nav {
 .footer li {
     color: #999894;
     display: inline;
-    padding: 1vw;
+    margin-left: 1vw;
 }
 
 .footer a {
