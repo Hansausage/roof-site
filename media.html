@@ -7,11 +7,44 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="media.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto&display=swap" rel="stylesheet">
 	<meta name="google-site-verification" content="GB0_PQKoeRcgKQF5qYrzkswxIiNOTjlatSQQmPuMeNU" />
 </head>
 
-<body>
+<body onload="generateTable()">
+        <nav>
+                <ul class="nav-container">
+                    <li class="logo"><a href="index.html"><img src="media/NOTEXT.png"></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="roofing.html">Roofing</a></li>
+                </ul>
+            </nav>
+    <div id="imgtable">
+        <script>
+            function generateTable() {
+                var body = document.getElementsByName("body");
+                var tdiv = document.getElementById("imgtable");
+                table = document.createElement("table");
+                tbody = document.createElement("tbody");
+                for (var i = 0; i <= 3; i++) {
+                    crow = document.createElement("tr");
+                    for (var j = 0; j <= 11; j++) {
+                        ccell = document.createElement("td");
+                        crow.appendChild(ccell);
+                    }
+                    tbody.appendChild(crow);
+                }
+                table.appendChild(tbody);
+                tdiv.appendChild(table)
+                table.setAttribute("border","2");
+                Console.console.log("test");
+            }
 
+            function fillImages() {
+
+            }
+        </script>
+    </div>
 </body>

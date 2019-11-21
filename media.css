@@ -1,0 +1,10 @@
+table {
+    margin-top: 10vh;
+    display: inline-flex;
+}
+
+td {
+    padding: 24px;
+    max-width: 128px;
+    max-height: 64px;
+}
