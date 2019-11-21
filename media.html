@@ -38,11 +38,22 @@
                 }
                 table.appendChild(tbody);
                 tdiv.appendChild(table)
-                table.setAttribute("border","2");
-                Console.console.log("test");
+                fillImages();
             }
 
             function fillImages() {
+                trow = document.getElementsByTagName("tr");
+                tcol = document.getElementsByTagName("td");
+                var x = 1;
+                for (let item of tcol) {
+                    currentItem = document.createElement("img");
+                    currentItem.setAttribute("src", "media/media-content/img \(" + x + "\).jpg");
+                    item.appendChild(currentItem);
+                    x++;
+                }
+            }
+
+            function getFileNames() {
 
             }
         </script>
